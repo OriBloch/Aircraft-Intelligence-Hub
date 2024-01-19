@@ -51,6 +51,10 @@ def display_scatter(airport, start_date, end_date):  # displays scatter graph
         # Filter out empty sublists before creating the plot
         non_empty_data = [data for data in histogram_data if data]
 
+        if len(set(len(data) for data in non_empty_data)) != 1:
+            st.warning("Arrays must have the same length. Unable to create distribution plot.")
+            return
+      
         # fig = FF.create_distplot(non_empty_data, months_labels, bin_size=5)
         fig = plotly.figure_factory.create_distplot(non_empty_data, months_labels, bin_size=5)
         fig.update_layout(title_text="Image Distribution", xaxis_title="Month", yaxis_title="Aircrafts Count",)
