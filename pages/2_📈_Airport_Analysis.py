@@ -5,6 +5,7 @@ from datetime import timedelta, date, datetime
 from plotly.tools import FigureFactory as FF
 import plotly.express as px
 import pandas as pd
+import plotly.figure_factory as plotly_ff
 
 st.set_page_config(layout="wide", initial_sidebar_state='expanded',
                    page_icon="images/Aircraft Intelligence Hub Badge.ico")
@@ -53,6 +54,7 @@ def display_scatter(airport, start_date, end_date):  # displays scatter graph
       
         # fig = FF.create_distplot(non_empty_data, months_labels, bin_size=5)
         fig = plotly.figure_factory.create_distplot(non_empty_data, months_labels, bin_size=5)
+        fig = plotly_ff.create_distplot(non_empty_data, months_labels, bin_size=5)
         fig.update_layout(title_text="Image Distribution", xaxis_title="Month", yaxis_title="Aircrafts Count",)
         st.plotly_chart(fig, use_container_width=True)
     except Exception as e:
