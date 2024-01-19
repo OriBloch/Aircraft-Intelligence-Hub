@@ -53,7 +53,7 @@ def display_scatter(airport, start_date, end_date):  # displays scatter graph
         non_empty_data = [data for data in histogram_data if data]
       
         # fig = FF.create_distplot(non_empty_data, months_labels, bin_size=5)
-        fig = plotly.figure_factory.create_distplot(non_empty_data, months_labels, bin_size=5)
+        # fig = plotly.figure_factory.create_distplot(non_empty_data, months_labels, bin_size=5)
         fig = plotly_ff.create_distplot(non_empty_data, months_labels, bin_size=5)
         fig.update_layout(title_text="Image Distribution", xaxis_title="Month", yaxis_title="Aircrafts Count",)
         st.plotly_chart(fig, use_container_width=True)
