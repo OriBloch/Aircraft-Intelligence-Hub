@@ -2,7 +2,7 @@ import streamlit as st
 
 linkedin_link = "https://www.linkedin.com/in/ori-bloch-312768207/"
 github_link = "https://github.com/OriBloch"
-github_repo = ""
+github_repo = "https://github.com/OriBloch/Aircraft-Intelligence-Hub"
 
 st.set_page_config(page_icon="images/Aircraft Intelligence Hub Badge.ico")
 
