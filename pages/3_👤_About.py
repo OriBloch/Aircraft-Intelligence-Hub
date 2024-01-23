@@ -20,7 +20,7 @@ with mid_col:
 
 st.write(
     "Greetings 👋, I am Ori Bloch, a Space Industry professional with an extensive 7-year tenure in the Remote Sensing industry.\n\n"
-    "In my current serve as Space Business Development Lead, strategically transitioning into a role focused on Algorithm Development 🧠.\n\n"
+    "In my current position, I serve as Space Business Development Lead, strategically transitioning into a role focused on Algorithm Development 🧠.\n\n"
     "Simultaneously, I am pursuing a Bachelor's degree in ⚡ Electrical and Computer Engineering.\n\n"
     "I created this platform to solve a real-life problem and demonstrate how algorithm development can reduce the headcount for analysis, "
     "save time and money for decision-makers, and leverage the important and rising resource of Remote Sensing data.\n\n"
