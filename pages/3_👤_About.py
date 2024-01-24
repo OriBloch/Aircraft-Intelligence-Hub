@@ -44,7 +44,7 @@ st.write(
     "and changes between airports. Understanding metrics like daily aircraft counts is paramount for "
     "grasping economic factors.\n\n"
         "💡 **Benefits:** This project underscores the potential of algorithms to automate and optimize the entire satellite image analysis process, delivering precision, "
-    "fast insights, and easily understandable visualizations while decreasing the need for expertise in image and data anylsis.\n\n"
+    "fast insights, and easily understandable visualizations while decreasing the need for expertise in image and data analysis.\n\n"
     f"🔍 **Source Code:** Explore the [source code on GitHub]({github_repo})"
 )
 
