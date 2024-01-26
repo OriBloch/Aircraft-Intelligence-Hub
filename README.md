@@ -37,7 +37,7 @@ The Aircraft Intelligence Hub, powered by advanced algorithms, streamlines satel
 
 - **Computing Limitation:** The Aircraft Detector was trained on personal equipment thus training was limited to 100 epochs. More training time would lead to better accuracy
 
-- **Dataset Limitation:** The Aircraft Detector was trained on ~2500 aircraft detections annotated by hand by Ori Bloch. More data would improve accuracy and detect more aircraft-type detection. The data is from Airbus open source db, as one may find in the "images_db_info" folder.
+- **Dataset Limitation:** The Aircraft Detector was trained on ~2500 aircraft detections annotated by hand by Ori Bloch. More data would improve accuracy and detect more aircraft-type detection. The data is from Airbus open source db, as one may find in the "images_db_info" page.
 
 - **Efficiency Improvements:** Video analysis currently does not use Kalman-Filter for faster object tracking
 
