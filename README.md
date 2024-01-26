@@ -3,7 +3,7 @@
 ![Aircraft Intelligence Hub](Images/Aircraft%20Intelligence%20Hub%20Badge.jpg)
 # Aircraft Intelligence Hub
 
-**Aircraft Intelligence Hub**: Elevating Satellite Imagery Analysis with Advanced Aircraft and Airport Analysis
+**Aircraft Intelligence Hub**: Elevating Satellite Imagery and Airport Analysis with Advanced AI Algorithm & Data Analysis
 
 </div>
 
@@ -21,13 +21,13 @@ The Aircraft Intelligence Hub, powered by advanced algorithms, streamlines satel
 
 ## Features 🚀
 
-- **User-Friendly Interface:** Aircraft Detector uses simple and aesthetic user interface for inputs and detections output.
+- **User-Friendly Interface:** Aircraft Detector uses a simple and aesthetic user interface for inputs and detections output.
 
-- **Multiple File Options:** The program is compatible for all common image formats and videos. 
+- **Multiple File Options:** The program is compatible with all common image formats and videos. 
 
-- **Aircraft Detection Algorithm:** Air Detector generates detections on all aircrafts within the image / video and highlight detections.
+- **Aircraft Detection Algorithm:** Air Detector generates detections on all aircrafts within the image/video and highlights detections.
 
-- **Image Comparison:** Air Detector presents image comaprison tool to highlight detections
+- **Image Comparison:** Air Detector presents an image comparison tool to highlight detections
 
 - **Download on Click:** Easily download detection results after analysis
 
@@ -35,9 +35,9 @@ The Aircraft Intelligence Hub, powered by advanced algorithms, streamlines satel
 
 ## Limitations & Possible Improvements ⚠️
 
-- **Computing Limitation:** Aircraft Detector was trained on personal equipment thus training was limited to 100 epochs. More training time would lead to better accuracy
+- **Computing Limitation:** The Aircraft Detector was trained on personal equipment thus training was limited to 100 epochs. More training time would lead to better accuracy
 
-- **Dataset Limitation:** Aircraft Detector was trained on ~2500 aircraft detections annotated by hand by Ori Bloch. More data would improve accuracy and detect more aircraft type detection
+- **Dataset Limitation:** The Aircraft Detector was trained on ~2500 aircraft detections annotated by hand by Ori Bloch. More data would improve accuracy and detect more aircraft-type detection. The data is from Airbus open source db, as one may find in the "images_db_info" folder.
 
 - **Efficiency Improvements:** Video analysis currently does not use Kalman-Filter for faster object tracking
 
@@ -49,7 +49,7 @@ The Aircraft Intelligence Hub, powered by advanced algorithms, streamlines satel
    - Import all relevant dependencies from requirements.txt
 
 2. **Run Streamlit:**
-   - Use console and write: "streamlit run front.py"
+   - Use the console and write: "streamlit run front.py"
 
 3. **Upload Files:**
    - Choose Image / Video
@@ -60,13 +60,13 @@ The Aircraft Intelligence Hub, powered by advanced algorithms, streamlines satel
    - Use the bar to see before and after images.
 
 5. **Download Detection**
-   - Press Download Button to download the detections
+   - Press the Download Button to download the detections
    
 6. **Airport Analysis**
    - Select airport, start and end date for analysis
    
 7. **Review Graphs**
-   - Review 4 unique graphs for specific airport and time  selected 
+   - Review 4 unique graphs for specific airport and time selected 
 
 8. **Developer Changes**
    - See main.py for instructions on developer changes 
