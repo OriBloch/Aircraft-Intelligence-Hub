@@ -1,9 +1,12 @@
 <div style="text-align: center;">
 
-![Aircraft Intelligence Hub](Images/Aircraft%20Intelligence%20Hub%20Badge.jpg)
+![Aircraft Intelligence Hub Badge Small](https://github.com/OriBloch/Aircraft-Intelligence-Hub/assets/153440570/b40ce665-6b24-4486-b553-81d0bafdc16c)
+
 # Aircraft Intelligence Hub
 
 **Aircraft Intelligence Hub**: Elevating Satellite Imagery and Airport Analysis with Advanced AI Algorithm & Data Analysis
+#
+**Demonstration Video**: https://www.youtube.com/watch?v=dmmnimuSTV0
 
 </div>
 
