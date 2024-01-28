@@ -104,9 +104,9 @@ Make sure you have the following dependencies installed before running the proje
 
 
 - [![LinkedIn](https://img.shields.io/badge/LinkedIn-Ori_Bloch-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/ori-bloch-312768207/)
-- [![GitHub](https://img.shields.io/badge/GitHub-Ori_Bloch-black?style=flat-square&logo=github)](link to your GitHub profile)
+- [![GitHub](https://img.shields.io/badge/GitHub-Ori_Bloch-black?style=flat-square&logo=github)](https://github.com/OriBloch)
 #
 
 <div style="text-align: center;">
-  <img src="Images/Aircraft Intelligence Hub Badge Small.jpg" alt="Aircraft Intelligence Hub Badge" />
+  <img src="https://github.com/OriBloch/Aircraft-Intelligence-Hub/assets/153440570/28488af0-1a0b-427e-88d0-8d3d2370e114" alt="Aircraft Intelligence Hub Badge" />
 </div>
