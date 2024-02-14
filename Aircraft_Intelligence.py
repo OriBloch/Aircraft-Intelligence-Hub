@@ -13,6 +13,7 @@ def display_header():
 
 def display_explanation():
     st.write("The Aircraft Intelligence Hub, powered by advanced algorithms, streamlines satellite image analysis for enhanced precision and rapid insights. Leveraging automation, it offers valuable intelligence on airport dynamics, aircraft flow, and economic factors, contributing to informed decision-making.\n For demonstration video: [Click here](https://www.youtube.com/watch?v=dmmnimuSTV0)")
+    st.markdown([Demonstration Link](https://www.youtube.com/watch?v=dmmnimuSTV0))) 
     left_co, cent_co, right_co = st.columns(3, gap="small")
     with cent_co:
         st.write("**Explore examples down below**")
